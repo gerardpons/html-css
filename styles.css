@@ -83,3 +83,12 @@
         .footerContent {
             background-color: #F7D673;
         }
+
+@media (max-width: 800px) {
+
+    .section {
+        flex-direction: column;
+        background-color: #F7D673;
+    }
+
+}
