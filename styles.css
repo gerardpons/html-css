@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .header {
+        background-color: black;
+    }
+
+        .menu {
+            display: flex;
+            background-color: #314057;
+        }
+
+            .logo {
+                flex: 1 1 auto;
+                background-color: #DA5F5B;
+            }    
+            
+            .navLinks {
+                flex: 5 1 auto;
+                background-color: #DA5F5B;
+            }
+
+            .socialMedia {
+                flex: 1 1 auto;
+                background-color: #DA5F5B;
+            }
+
+        .banner {
+            background-color: #E1804D;
+        }
+
+            .bannerTitle {
+                background-color: #F7D673;
+            }
+
+    .section {
+        display: flex;
+        background-color: black;
+    }
+
+        .articles {
+            display: flex;
+            flex-flow: row wrap;
+            flex: 2 1 auto;
+            background-color: #314057;
+        }
+
+            .articlesItem {
+                flex: 1 1 40%;
+                background-color: #376AAB;
+            }
+
+            .articlesFooter {
+                flex: 1 1 100%;
+                background-color: #7BA2C1;
+            }
+
+        .aside {
+            flex: 1 1 auto;
+            background-color: #DA5F5B;
+        }
+
+            .asideTitle {
+                background-color: #F7D673;
+            }
+
+            .asideCopy {
+                background-color: #F7D673;
+            }
+
+    .footer {
+        background-color: black;
+    }
+
+        .footerContent {
+            background-color: #F7D673;
+        }
